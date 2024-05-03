@@ -1,0 +1,20 @@
+[package]
+name = "hugface"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+candle-core = "0.5.0"
+candle-nn = "0.5.0"
+candle-transformers = "0.5.0"
+hf-hub = "0.3.2"
+serde = { version = "1.0.200", features = ["derive"] }
+serde_json = "1.0.116"
+tokenizers = "0.19.1"
+derive-new = "0.6.0"
+dotenv = "0.15.0"
+axum = "0.7.5"
+tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread"] }
