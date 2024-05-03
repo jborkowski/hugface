@@ -1,7 +1,7 @@
 use anyhow::{Error as E, Result};
 use candle_core::{DType, Device};
 use candle_nn::VarBuilder;
-use candle_transformers::generation::LogitsProcessor;
+
 use derive_new::new;
 use hf_hub::api::sync::{ApiBuilder, ApiRepo};
 use hf_hub::{Repo, RepoType};

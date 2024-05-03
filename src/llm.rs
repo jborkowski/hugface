@@ -1,4 +1,4 @@
-use candle_core::{DType, Device, Error, Result, Tensor};
+use candle_core::{DType, Device, Result, Tensor};
 use candle_transformers::{generation::LogitsProcessor, models::mistral::Model as Mistral};
 use tokenizers::Tokenizer;
 
